@@ -16,6 +16,9 @@
 		0AB73E232A894525004CB3FD /* PrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB73E222A894525004CB3FD /* PrototypeTests.swift */; };
 		0AB73E2D2A894525004CB3FD /* PrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB73E2C2A894525004CB3FD /* PrototypeUITests.swift */; };
 		0AB73E2F2A894525004CB3FD /* PrototypeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB73E2E2A894525004CB3FD /* PrototypeUITestsLaunchTests.swift */; };
+		0AB73E3C2A895249004CB3FD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB73E3B2A895249004CB3FD /* FeedViewController.swift */; };
+		0AB73E402A8954B2004CB3FD /* FeedImageViewModel+PrototypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB73E3F2A8954B2004CB3FD /* FeedImageViewModel+PrototypeData.swift */; };
+		0AB73E422A896250004CB3FD /* FeedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB73E412A896250004CB3FD /* FeedImageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		0AB73E282A894525004CB3FD /* PrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB73E2C2A894525004CB3FD /* PrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeUITests.swift; sourceTree = "<group>"; };
 		0AB73E2E2A894525004CB3FD /* PrototypeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrototypeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0AB73E3B2A895249004CB3FD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		0AB73E3F2A8954B2004CB3FD /* FeedImageViewModel+PrototypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageViewModel+PrototypeData.swift"; sourceTree = "<group>"; };
+		0AB73E412A896250004CB3FD /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				0AB73E0B2A894523004CB3FD /* AppDelegate.swift */,
 				0AB73E0D2A894523004CB3FD /* SceneDelegate.swift */,
 				0AB73E0F2A894523004CB3FD /* ViewController.swift */,
+				0AB73E3B2A895249004CB3FD /* FeedViewController.swift */,
+				0AB73E3F2A8954B2004CB3FD /* FeedImageViewModel+PrototypeData.swift */,
+				0AB73E412A896250004CB3FD /* FeedImageCell.swift */,
 				0AB73E112A894523004CB3FD /* Main.storyboard */,
 				0AB73E142A894525004CB3FD /* Assets.xcassets */,
 				0AB73E162A894525004CB3FD /* LaunchScreen.storyboard */,
@@ -259,7 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AB73E102A894523004CB3FD /* ViewController.swift in Sources */,
+				0AB73E422A896250004CB3FD /* FeedImageCell.swift in Sources */,
 				0AB73E0C2A894523004CB3FD /* AppDelegate.swift in Sources */,
+				0AB73E3C2A895249004CB3FD /* FeedViewController.swift in Sources */,
+				0AB73E402A8954B2004CB3FD /* FeedImageViewModel+PrototypeData.swift in Sources */,
 				0AB73E0E2A894523004CB3FD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
