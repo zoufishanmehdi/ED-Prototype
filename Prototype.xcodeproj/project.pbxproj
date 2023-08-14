@@ -19,6 +19,7 @@
 		0AB73E3C2A895249004CB3FD /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB73E3B2A895249004CB3FD /* FeedViewController.swift */; };
 		0AB73E402A8954B2004CB3FD /* FeedImageViewModel+PrototypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB73E3F2A8954B2004CB3FD /* FeedImageViewModel+PrototypeData.swift */; };
 		0AB73E422A896250004CB3FD /* FeedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB73E412A896250004CB3FD /* FeedImageCell.swift */; };
+		0AB73E482A8AA543004CB3FD /* FeedViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB73E472A8AA543004CB3FD /* FeedViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		0AB73E3B2A895249004CB3FD /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		0AB73E3F2A8954B2004CB3FD /* FeedImageViewModel+PrototypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageViewModel+PrototypeData.swift"; sourceTree = "<group>"; };
 		0AB73E412A896250004CB3FD /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
+		0AB73E472A8AA543004CB3FD /* FeedViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				0AB73E222A894525004CB3FD /* PrototypeTests.swift */,
+				0AB73E472A8AA543004CB3FD /* FeedViewControllerTests.swift */,
 			);
 			path = PrototypeTests;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AB73E482A8AA543004CB3FD /* FeedViewControllerTests.swift in Sources */,
 				0AB73E232A894525004CB3FD /* PrototypeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
